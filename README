@@ -1,1 +1,223 @@
 
+💧 Gilgit-Baltistan Drinking Water Quality Analysis
+
+«An interactive data analysis project exploring drinking-water quality across Gilgit-Baltistan using evidence compiled from multiple studies and sources.»
+
+📊 Project Overview
+
+Access to safe drinking water is an important public-health concern. This project brings together water-quality records from multiple studies across Gilgit-Baltistan and transforms the compiled evidence into an interactive analytical dashboard.
+
+The goal was not simply to visualize the data, but to explore patterns across districts, years, and water-quality indicators, identify areas of concern, and communicate the findings in a way that can support further investigation and water-safety interventions.
+
+---
+
+🎯 Research Question
+
+What does the available evidence suggest about drinking-water quality across Gilgit-Baltistan, and where are the main areas of concern?
+
+Objectives
+
+- Examine drinking-water quality records across districts and years.
+- Assess reported safety outcomes across available water-quality indicators.
+- Identify patterns and areas of concern.
+- Present the findings through an interactive dashboard.
+- Translate the analysis into practical recommendations.
+
+---
+
+🗂️ Dataset
+
+The project contains:
+
+- 25 water-quality records
+- Compiled from 16 studies
+- Sources represented include PCRWR, GB-EPA, WASEP, and peer-reviewed studies
+
+Because the records were compiled from multiple studies, the dataset is treated as an evidence synthesis rather than a single standardized survey.
+
+Differences in sampling methods, seasons, locations, and reporting standards are therefore important when interpreting the results.
+
+---
+
+🔎 Analytical Approach
+
+The project followed this workflow:
+
+Data Compilation → Cleaning & Validation → Exploratory Analysis → Visualization → Findings → Recommendations
+
+1. Data Compilation
+
+Water-quality observations were compiled from the available study sources into a structured dataset.
+
+2. Data Cleaning & Validation
+
+The combined dataset was reviewed and prepared for analysis, while retaining study-level context needed to interpret differences between sources.
+
+3. Exploratory Analysis
+
+The analysis examined:
+
+- Safety classifications
+- Microbiological indicators
+- E. coli results
+- pH results
+- District-level patterns
+- Yearly patterns
+
+4. Visualization
+
+The results were transformed into an interactive dashboard to allow users to explore the data rather than relying only on static summaries.
+
+---
+
+📈 Interactive Dashboard
+
+The dashboard was developed using:
+
+HTML · CSS · JavaScript · Chart.js
+
+Dashboard features
+
+- 🎛️ District filtering
+- 📅 Year filtering
+- 🔄 Reset controls
+- 📊 Dynamic KPI cards
+- 📍 District-level comparisons
+- 📈 Yearly trend analysis
+- 🖱️ Interactive chart filtering
+- 📋 Study-level data table
+
+«Dashboard: The interactive HTML dashboard is included in this repository.»
+
+---
+
+📌 Key Results
+
+Indicator| Result
+Records classified as unsafe| 96%
+Reported E. coli results failing the standard| 95%
+Reported pH results passing| 85.7%
+
+What this suggests
+
+The available evidence indicates a substantial water-quality concern across the compiled records, with unsafe classifications accounting for the large majority of observations.
+
+Microbiological quality is a particularly important concern in the available evidence, with most reported E. coli results failing the applicable standard.
+
+Reported pH results show a more mixed picture than the microbiological indicators.
+
+The interactive dashboard allows these patterns to be explored across different districts and years.
+
+---
+
+💡 Key Insights
+
+1. Unsafe classifications dominate the available records
+
+A large majority of the compiled records were classified as unsafe, indicating a significant water-quality concern within the available evidence.
+
+2. Microbiological contamination is a major concern
+
+The available E. coli results show a high proportion of failures against the applicable standard.
+
+This makes microbiological monitoring particularly important when considering water-safety interventions.
+
+3. Water-quality patterns vary across locations and time
+
+The district and year filters allow users to investigate whether observed problems are concentrated in particular locations or periods.
+
+4. Cross-study interpretation requires caution
+
+The dataset combines evidence from different studies, meaning differences in methodology and reporting can affect direct comparisons.
+
+---
+
+🧠 Recommendations
+
+Based on the patterns observed in the compiled evidence:
+
+1. Prioritize further investigation of locations with repeated unsafe results.
+
+2. Strengthen routine water-quality monitoring and reporting across districts.
+
+3. Pay particular attention to microbiological contamination, especially E. coli results.
+
+4. Improve consistency in sampling and reporting to make future cross-study comparisons more reliable.
+
+5. Use district- and time-specific evidence to guide targeted water-safety and public-health interventions.
+
+These recommendations represent analytical implications of the available evidence and should not be treated as a substitute for standardized field surveys or formal public-health risk assessments.
+
+---
+
+⚠️ Limitations
+
+This project combines evidence from multiple studies with differences in:
+
+- Sampling methods
+- Sampling seasons
+- Locations
+- Reporting standards
+
+These differences limit direct cross-study comparisons.
+
+Therefore, this project should be interpreted as an exploratory evidence synthesis, rather than a definitive estimate of drinking-water quality across the entire Gilgit-Baltistan region.
+
+---
+
+🛠️ Tools & Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+- Data Cleaning & Validation
+- Exploratory Data Analysis
+- Data Visualization
+
+---
+
+📁 Project Structure
+
+gilgit-baltistan-water-quality-analysis/
+│
+├── README.md
+│
+├── dashboard/
+│   └── water-quality-dashboard.html
+│
+├── data/
+│   └── cleaned_dataset.csv
+│
+└── screenshots/
+    └── dashboard-preview.png
+
+---
+
+📌 Project Status
+
+Completed
+
+The exploratory analysis and interactive dashboard have been completed.
+
+Future iterations could incorporate additional standardized observations, newer records, and deeper statistical analysis as more comparable data become available.
+
+---
+
+👤 About the Analyst
+
+Andrew Ibeh
+
+Data Analyst with a background in healthcare and an interest in using data to generate clearer insights and support better decisions.
+
+Focus areas: Healthcare Analytics · Data Analysis · Research · Data Visualization
+
+Connect
+
+🌐 Portfolio: https://gamma.app/docs/Andrew-Ibeh-Data-Analyst-Portfolio-khrtf1uktz6obwl
+
+💻 GitHub: https://github.com/andrewibeh
+
+---
+
+⭐ If you found this analysis useful, feel free to explore the repository and dashboard.
